@@ -8,10 +8,12 @@ mongoose.Promise = global.Promise;
 mongoose.connect(config.mongo.connectionString);
 
 const getTemperature = sensor => request(sensor.url, (error, response, body) => {
+  let value = body.trim();
+  console.log(sensor.name + ': ' + value + ' °C');
   let temperature = new measure({
     id: sensor.id,
     name: sensor.name,
-    measure: body.trim()
+    measure: value
   })
   temperature.save(error => {
     if (error) {
