@@ -8,6 +8,5 @@ install:
   - yarn global add codecov
 script:
   - yarn test
-  - yarn build
-script:
   - codecov
+  - yarn build
