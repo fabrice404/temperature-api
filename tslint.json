@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "tslint-config-airbnb"
+  ],
+  "rules": {
+    "ordered-imports": {
+      "options": {
+        "import-sources-order": "case-insensitive",
+        "grouped-imports": true,
+        "named-imports-order": "case-insensitive"
+      }
+    }
+  }
+}
