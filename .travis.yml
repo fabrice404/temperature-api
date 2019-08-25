@@ -7,3 +7,5 @@ branches:
 script:
   - yarn test
   - yarn build
+script:
+  - codecov
