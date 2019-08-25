@@ -4,6 +4,8 @@ node_js:
 branches:
   only:
     - master
+install:
+  - yarn global add codecov
 script:
   - yarn test
   - yarn build
