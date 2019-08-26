@@ -1,4 +1,4 @@
 #!/bin/bash
 
-yarn
+yarn install --production
 node ./index.js
