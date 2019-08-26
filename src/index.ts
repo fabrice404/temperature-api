@@ -7,7 +7,7 @@ import * as sensors from './sensors';
 export const start = () => {
   const app = express();
 
-  const PORT = process.env.port || 4000;
+  const PORT = process.env.PORT || 4000;
 
   app.get('/sensors/:sensorId', (req, res) => {
     res.status(200)

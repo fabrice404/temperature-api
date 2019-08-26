@@ -1,10 +1,10 @@
 {
-  "20": {
-    "name": "20",
+  "home-office": {
+    "name": "Home office",
     "url": "http://192.168.0.20/gettemp"
   },
-  "24": {
-    "name": "24",
+  "kitchen": {
+    "name": "Kitchen",
     "url": "http://192.168.0.24/gettemp"
   }
 }
