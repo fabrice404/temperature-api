@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp start.sh ./build && cp package.json ./build",
     "start": "node ./build/index",
     "dev": "tsc-watch --onSuccess \"yarn start\"",
     "lint": "tslint -p tsconfig.json -c tslint.json --fix",
