@@ -17,7 +17,7 @@ const ssh = new NodeSsh();
 
   if (process.env.SSH_FOLDER !== '') {
     // delete what exists in current folder
-    await ssh.execCommand(`rm -rf ${process.env.SSH_FOLDER}/*`)
+    await ssh.execCommand(`rm -rf ${process.env.SSH_FOLDER}/*`);
 
     // copy directory
     status = await ssh.putDirectory(`${__dirname}/build`, process.env.SSH_FOLDER, {
@@ -38,9 +38,9 @@ const ssh = new NodeSsh();
     });
   }
 
-  console.log('the directory transfer was', status ? 'successful' : 'unsuccessful');
+  process.stdout.write(`'the directory transfer was', ${status ? 'successful' : 'unsuccessful'}`);
   if (failed.length > 0) {
-    console.log('failed transfers:', failed.join('\n'));
+    process.stderr.write(`failed transfers: \n${failed.join('\n')}`);
   }
   ssh.dispose();
 })();
