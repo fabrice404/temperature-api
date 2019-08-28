@@ -38,7 +38,7 @@ const ssh = new NodeSsh();
     });
   }
 
-  process.stdout.write(`'the directory transfer was', ${status ? 'successful' : 'unsuccessful'}`);
+  process.stdout.write(`the directory transfer was ${status ? 'successful' : 'unsuccessful'}`);
   if (failed.length > 0) {
     process.stderr.write(`failed transfers: \n${failed.join('\n')}`);
   }

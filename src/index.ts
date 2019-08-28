@@ -9,6 +9,10 @@ export const start = () => {
 
   const PORT = process.env.PORT || 4000;
 
+  app.use(bodyParser.json());
+  app.use(bodyParser.urlencoded({ extended: true }));
+  app.use(cors());
+
   app.get('/sensors/:sensorId', (req, res) => {
     res.status(200)
       .json(sensors.get(req.params.sensorId));
@@ -24,10 +28,6 @@ export const start = () => {
     res.status(500)
       .json({ error: err.stack });
   });
-
-  app.use(bodyParser.json());
-  app.use(bodyParser.urlencoded({ extended: true }));
-  app.use(cors());
 
   sensors.init();
 
