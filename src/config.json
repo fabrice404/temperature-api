@@ -10,5 +10,9 @@
   "playroom": {
     "name": "Play room",
     "url": "http://192.168.0.25/gettemp"
+  },
+  "living-room": {
+    "name": "Living room",
+    "url": "http://192.168.0.23/gettemp"
   }
 }
