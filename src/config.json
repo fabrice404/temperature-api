@@ -6,5 +6,9 @@
   "kitchen": {
     "name": "Kitchen",
     "url": "http://192.168.0.24/gettemp"
+  },
+  "playroom": {
+    "name": "Play room",
+    "url": "http://192.168.0.25/gettemp"
   }
 }
