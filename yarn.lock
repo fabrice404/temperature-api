@@ -4162,10 +4162,10 @@ ts-node@^8.3.0:
     source-map-support "^0.5.6"
     yn "^3.0.0"
 
-tsc-watch@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/tsc-watch/-/tsc-watch-2.4.0.tgz#0b3b9d98d8032ba02acae1d38a7ebb16da0591f7"
-  integrity sha512-HTNRQm/P2YdP34b7bhaSOjVQ/YdTJGkNYyAD0scEcK7qXX7BWsBG8n3YlYHC9a6mX//gs5ouWQ3DXrBWjVp6rQ==
+tsc-watch@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/tsc-watch/-/tsc-watch-3.0.0.tgz#d4acca61d9ac2125123bf871642335b42737cf26"
+  integrity sha512-JIE3kaI5Lk7zGa0yrzu82CDMfpnXNd313g+nZdUJFZ1DK678hl1U1yMpxFOmMxwhNwKii93QE+TKiAwNOgvTLw==
   dependencies:
     cross-spawn "^5.1.0"
     node-cleanup "^2.1.2"
