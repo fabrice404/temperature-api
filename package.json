@@ -23,7 +23,7 @@
     "node-ssh": "^6.0.0",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.3.0",
-    "tsc-watch": "^3.0.0",
+    "tsc-watch": "^3.0.1",
     "tslint": "^5.19.0",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.6.2"
