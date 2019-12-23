@@ -2928,16 +2928,16 @@ node-pre-gyp@^0.12.0:
     semver "^5.3.0"
     tar "^4"
 
-node-ssh@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/node-ssh/-/node-ssh-6.0.0.tgz#3287bdb3fad4a898064ea1df2d601a65a1c5d724"
-  integrity sha512-R/nqH09/kZrXilSLizJgokw4hJTSADANnntjk6iNVfO95RPNQq9H19NeUvQof96WQB9dgOxpRgBV7d+snZP2DQ==
+node-ssh@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/node-ssh/-/node-ssh-7.0.0.tgz#f5a34f3d84a68bf4c646d55cce07dc11f2f1c22a"
+  integrity sha512-LwdGalFACK+DCVI1+wkehR/a8uIkmAn0npW43f8U6XhH20112a/WAXv3oQay7IK2YHY1J6r5JT2MEHhjyQxKIA==
   dependencies:
-    p-map "^2.1.0"
+    p-map "^3.0.0"
     sb-promisify "^2.0.1"
     sb-scandir "^2.0.0"
     shell-escape "^0.2.0"
-    ssh2 "^0.8.2"
+    ssh2 "^0.8.7"
 
 nopt@^4.0.1:
   version "4.0.1"
@@ -3144,11 +3144,6 @@ p-map@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/p-map/-/p-map-1.2.0.tgz#e4e94f311eabbc8633a1e79908165fca26241b6b"
   integrity sha512-r6zKACMNhjPJMTl8KcFH4li//gkrXWfbD6feV8l6doRHlzljFWGJ2AP6iKaCJXyZmAUMOPtvbW7EXkbWO/pLEA==
-
-p-map@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/p-map/-/p-map-2.1.0.tgz#310928feef9c9ecc65b68b17693018a665cea175"
-  integrity sha512-y3b8Kpd8OAN444hxfBbFfj1FY/RjtTd8tzYwhUqNYXx0fXx2iX4maP4Qr6qhIKbQXI02wTLAda4fYUbDagTUFw==
 
 p-map@^3.0.0:
   version "3.0.0"
@@ -3863,21 +3858,21 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-ssh2-streams@~0.4.4:
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/ssh2-streams/-/ssh2-streams-0.4.4.tgz#7f07464c4b19ee93324995ec7164f110c5a13658"
-  integrity sha512-yNfPZgJO/N69TvYkpDHZBkXAXQzTpfzRkOphQu3PeUpZnrjp9VNa8RKDZkZDpjsWItay+I4NMAbZZ7DqHRt0AQ==
+ssh2-streams@~0.4.8:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/ssh2-streams/-/ssh2-streams-0.4.8.tgz#2ff92df2e0063fef86cf934eaea197967deda715"
+  integrity sha512-auxXfgYySz2vYw7TMU7PK7vFI7EPvhvTH8/tZPgGaWocK4p/vwCMiV3icz9AEkb0R40kOKZtFtqYIxDJyJiytw==
   dependencies:
     asn1 "~0.2.0"
     bcrypt-pbkdf "^1.0.2"
     streamsearch "~0.1.2"
 
-ssh2@^0.8.2:
-  version "0.8.5"
-  resolved "https://registry.yarnpkg.com/ssh2/-/ssh2-0.8.5.tgz#9144cdd6c104aa81b2b16ce647c109f4bd138b57"
-  integrity sha512-TkvzxSYYUSQ8jb//HbHnJVui4fVEW7yu/zwBxwro/QaK2EGYtwB+8gdEChwHHuj142c5+250poMC74aJiwApPw==
+ssh2@^0.8.7:
+  version "0.8.7"
+  resolved "https://registry.yarnpkg.com/ssh2/-/ssh2-0.8.7.tgz#2dc15206f493010b98027201cf399b90bab79c89"
+  integrity sha512-/u1BO12kb0lDVxJXejWB9pxyF3/ncgRqI9vPCZuPzo05pdNDzqUeQRavScwSPsfMGK+5H/VRqp1IierIx0Bcxw==
   dependencies:
-    ssh2-streams "~0.4.4"
+    ssh2-streams "~0.4.8"
 
 sshpk@^1.7.0:
   version "1.16.1"
