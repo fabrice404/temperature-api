@@ -17,7 +17,7 @@
     "@types/express": "^4.17.2",
     "@types/jest": "^24.9.0",
     "@types/node": "^13.1.7",
-    "husky": "^4.0.7",
+    "husky": "^4.0.10",
     "jest": "^24.9.0",
     "jest-express": "^1.10.1",
     "node-ssh": "^7.0.0",
