@@ -2231,10 +2231,10 @@ jest-environment-node@^24.9.0:
     jest-mock "^24.9.0"
     jest-util "^24.9.0"
 
-jest-express@^1.10.2:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/jest-express/-/jest-express-1.10.2.tgz#532f0139007dca460bdfd0660d57127fa5281435"
-  integrity sha512-dFK/QMDynuNJbSwXCdycP19Ceb6UGby+y0UB3ZRzZKxr/3Qo0K3QiHzW25jYC1PeAFB84oytETMpmBeRcx5vrg==
+jest-express@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/jest-express/-/jest-express-1.11.0.tgz#a2136d24ac2a3e77d30a1f0ea542143b6c4f8926"
+  integrity sha512-KT9pLPAwkCIAjyOw/zvVgSecNLdV8pE45riS9f8CJsOImcnzpkZxkq+BguNuxMBoZ3NM9HIh6VAzDnvf2tFzbw==
   dependencies:
     jest-node-http "1.0.0"
 
