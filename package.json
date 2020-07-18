@@ -20,7 +20,7 @@
     "husky": "^4.2.5",
     "jest": "^25.5.4",
     "jest-express": "^1.12.0",
-    "node-ssh": "^8.0.0",
+    "node-ssh": "^10.0.2",
     "ts-jest": "^25.5.1",
     "ts-node": "^8.10.2",
     "tsc-watch": "^4.2.3",
